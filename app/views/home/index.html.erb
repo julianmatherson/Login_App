@@ -1,9 +1,11 @@
 <% if user_signed_in? %>
-  <h1 class="text-center">
+  <h1 class="text-center bg-info text-secondary">
   Welcome, <%= current_user.email %>!
   </h1>
 <% else %>
-  <h1 class="text-center">
+  <h1 class="text-center bg-info text-secondary">
   Welcome, sign in!
   </h1>
 <% end %>
+
+
